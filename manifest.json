@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "YouTube Speedup Plugin",
+  "description": "Simple plugin to allow you to control the speed of YouTube playback.",
+  "version": "1.0",
+
+  "browser_action": {
+   "default_icon": "icon.png",
+   "default_popup": "popup.html"
+  },
+  "permissions": [
+   "activeTab"
+   ]
+}
